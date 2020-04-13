@@ -1,4 +1,4 @@
-# Rafael A. Codiing Swatches
+# Rafael A. Coding Swatches
 This is my REST API Backend code for Swatches.
 
 # Description
@@ -37,17 +37,17 @@ https://github.com/rafantelo/swatches.git
 http://rafael-swatch.s3-website.us-east-2.amazonaws.com/
 
 # REST API Endpoints
-## Get a list of all Swatches (GET)
+### Get a list of all Swatches (GET)
 ```
 http://rafael-swatches-1844546927.us-east-2.elb.amazonaws.com/api/swatches
 ```
 
-## Get a specific Swatch (GET)
+### Get a specific Swatch (GET)
 ```
 http://rafael-swatches-1844546927.us-east-2.elb.amazonaws.com/api/swatches/{your swatch name}
 ```
 
-## Create (POST)
+### Create (POST)
 ```
 http://rafael-swatches-1844546927.us-east-2.elb.amazonaws.com/api/swatches
 Content-Type: application/json
@@ -61,13 +61,13 @@ Content-Type: application/json
 }
 ```
 
-## Delete (GET)
+### Delete (GET)
 Used GET to delete, because in the README file it was explicit the use of GET, POST, PUT (DELETE was not part of the list)
 ```
 http://rafael-swatches-1844546927.us-east-2.elb.amazonaws.com/api/swatches/delete/{your swatch name}
 ```
 
-## Update (PUT)
+### Update (PUT)
 ```
 http://rafael-swatches-1844546927.us-east-2.elb.amazonaws.com/api/swatches/{your swatch name}
 Content-Type: application/json
