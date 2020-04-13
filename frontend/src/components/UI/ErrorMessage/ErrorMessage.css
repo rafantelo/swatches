@@ -1,0 +1,9 @@
+.ErrorMessage {
+    width: 50%;
+}
+
+.ErrorMessage img {
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+}

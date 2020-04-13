@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "swatches-backend-80",
+      "script": "server.js",
+      "instances" : "max",
+      "watch": false,
+      "env": {
+        "PORT": 80
+      }
+    }
+  ]
+}
